@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <style>
+        /* Base Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #3bceac, #46b5d1);
+            color: #fff;
+            overflow: hidden;
+        }
+        
+        .content {
+            text-align: center;
+            border-radius: 15px;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.4em;
+            margin-bottom: 30px;
+        }
+
+        .success-icon {
+            font-size: 80px;
+            color: #4CAF50;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #4CAF50, #3bceac);
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="success-icon">✔️</div>
+        <h1>Success!</h1>
+        <p>Your task was completed successfully. You're amazing!</p>
+        <button onclick="window.location.href='/MVCCurdProject/Menu.html'" class="btn" id="btn">BACK TO HOME</button>
+
+
+       
+
+    </div>
+</body>
+</html>

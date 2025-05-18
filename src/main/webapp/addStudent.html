@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Add Student</h1>
+    </header>
+
+    <div class="content">
+        <form method="post" action="./Controller/addStudent">
+            
+            
+
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" placeholder="Enter Student Name" required>
+
+            <label for="studentAge">Student Age:</label>
+            <input type="text" id="studentAge" name="studentAge" placeholder="Enter Student Age" required>
+
+            <label for="studentAddress">Student Address:</label>
+            <input type="text" id="studentAddress" name="studentAddress" placeholder="Enter Student Address" required>
+
+            <button type="submit">Add Student</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Contact us: <a href="mailto:info@studentsystem.com">info@studentsystem.com</a></p>
+    </footer>
+</body>
+</html>
