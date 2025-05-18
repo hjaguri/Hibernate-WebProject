@@ -1,9 +1,52 @@
+# 🎓 Student Management System (Servlet + Hibernate)
+
+A full-stack Java web application for managing student records using **Servlets** and **Hibernate ORM**.
 
 ---
 
+## 🧠 Project Explanation
+
+This project is a **Student Management System** where users can **perform all CRUD operations** (Create, Read, Update, Delete) on student data stored in a **MySQL database**.
+
+The application is divided into three main layers:
+
+1. **Presentation Layer (HTML + Servlet Controller)**  
+   User interacts through web pages. Data from the form is sent to Servlets.
+
+2. **Business Logic Layer (Service Classes)**  
+   Servlets pass data to Service classes which apply logic (if needed) and call DAO layer.
+
+3. **Data Access Layer (DAO + Hibernate)**  
+   Uses Hibernate to interact with the MySQL database. All insert, update, delete, and fetch operations are handled here.
+
+---
+
+## ✨ Key Features
+
+- Add New Student  
+- View All Students  
+- Update Existing Student  
+- Delete Student from Records  
+- Proper Success and Error Handling  
+- Clean and Modular Code (MVC structure)
+
+---
+
+## 🔧 Technologies Used
+
+- Java Servlets (for controller logic)
+- Hibernate ORM (for DB interaction)
+- MySQL Database
+- HTML & CSS (Frontend pages)
+- Apache Tomcat (Server)
+- Eclipse IDE
+
+---
+
+
 ## 📸 Screenshots
 
-> 🔽 Insert screenshots here (UI + DB output + success/fail pages)
+
 >
 > ### 🧾 Login Page (index.html)
 ![Screenshot (65)](https://github.com/user-attachments/assets/221462b3-b11d-4301-b198-6487450743f2)
